@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
@@ -10,20 +10,20 @@
         <AssemblyOriginatorKeyFile>cbios.snk</AssemblyOriginatorKeyFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Description>RF CIM Canonical model classes C# implementation based on GOST 58651 series.</Description>
-        <Copyright>Copyright (C) 2025 Yuri A. Kovalenko a.k.a belizahrt &lt;belizahrt@gmail.com&gt;</Copyright>
+        <Copyright>Copyright (C) 2026 Yuri A. Kovalenko a.k.a belizahrt &lt;belizahrt@gmail.com&gt;</Copyright>
         <PackageProjectUrl>https://github.com/Cimbios/CimBios.Gost58651</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Cimbios/CimBios.Gost58651</RepositoryUrl>
         <PackageTags>CIM, Common Information Model, CIMXML, RDFXML, IEC61970, GOST58651, RFCIM</PackageTags>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <FileVersion>1.0.1</FileVersion>
         <PackageIcon>logo.png</PackageIcon>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>CimBios Org</Authors>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="CimBios.Core.CimModel.DatatypeLib" Version="0.1.0" />
+      <PackageReference Include="CimBios.Core.CimModel.DatatypeLib" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup>
