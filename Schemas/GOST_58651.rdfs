@@ -10197,14 +10197,6 @@
 		<rdfs:label>description</rdfs:label>
 		<rdfs:comment>Описание объекта информационной модели.</rdfs:comment>
 	</rdf:Property>
-	<rdf:Property rdf:about="http://iec.ch/TC57/CIM100#IdentifiedObject.mRID">
-		<rdfs:domain rdf:resource="http://iec.ch/TC57/CIM100#IdentifiedObject" />
-		<cims:dataType rdf:resource="http://gost.ru/2019/schema-cim01#UUID" />
-		<cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1" />
-		<cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute" />
-		<rdfs:label>mRID</rdfs:label>
-		<rdfs:comment>Глобальный уникальный идентификатор объекта информационной модели.</rdfs:comment>
-	</rdf:Property>
 	<rdf:Property rdf:about="http://iec.ch/TC57/CIM100#IdentifiedObject.name">
 		<rdfs:domain rdf:resource="http://iec.ch/TC57/CIM100#IdentifiedObject" />
 		<cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
