@@ -9,7 +9,7 @@
 If you don't already have a dotnet project, create one in Visual Studio.
 
 ### 2: Install NuGet Package
-Inatall `CimBios.Gost58651` NuGet package to your app with your preferred method. Here is the one using NuGet Package Manager:
+Install `CimBios.Gost58651` NuGet package to your app with your preferred method. Here is the one using NuGet Package Manager:
 
 ```bash
 Install-Package CimBios.Gost58651
@@ -63,5 +63,6 @@ var schema = lib.Schema;
 Contributions are welcome from the community! If you find any issues or have suggestions for improvements, please submit them through the GitHub issue tracker or consider making a pull request.
 
 ## License
+
 
 This project is licensed under the [GPL 3.0 License](https://github.com/all-licenses/GNU-General-Public-License-v3.0).
